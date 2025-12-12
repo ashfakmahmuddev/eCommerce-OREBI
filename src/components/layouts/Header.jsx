@@ -15,7 +15,9 @@ const Header = () => {
         <Container className={"font-DMSans"}>
           <div className="flex justify-between items-center">
             <div className="">
-              <Image src={logo} />
+              <Link to={"/"}>
+                <Image src={logo} />
+              </Link>
             </div>
             <div className="">
               <ul className="flex items-center gap-x-10 text-[#767676] text-sm font-semibold">

@@ -85,7 +85,9 @@ const Footer = () => {
             </span>
           </div>
           <div className="">
-            <Image src={logo} alt={logo} />
+            <Link to={"/"}>
+              <Image src={logo} alt={logo} />
+            </Link>
           </div>
         </div>
       </Container>
