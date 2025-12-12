@@ -10,6 +10,7 @@ import SpecialOffers from "../layouts/SpecialOffers";
 const Home = () => {
   return (
     <>
+      
       <Banner />
       <Information />
       <Ads />
@@ -17,6 +18,7 @@ const Home = () => {
       <Bestsellers />
       <PhoneAd/>
       <SpecialOffers/>
+
     </>
   );
 };
