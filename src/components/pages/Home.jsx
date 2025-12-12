@@ -4,6 +4,8 @@ import Information from "../layouts/Information";
 import Ads from "../layouts/Ads";
 import NewArrivals from "../layouts/NewArrivals";
 import Bestsellers from "../layouts/Bestsellers";
+import PhoneAd from "../layouts/PhoneAd";
+import SpecialOffers from "../layouts/SpecialOffers";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <Ads />
       <NewArrivals />
       <Bestsellers />
+      <PhoneAd/>
+      <SpecialOffers/>
     </>
   );
 };
