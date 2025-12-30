@@ -3,6 +3,9 @@ import Container from "../Container";
 import { Link } from "react-router-dom";
 import Image from "../Image";
 import logo from "/src/assets/logo.png";
+import { RiFacebookFill } from "react-icons/ri";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { IoLogoInstagram } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -89,6 +92,26 @@ const Footer = () => {
               <Image src={logo} alt={logo} />
             </Link>
           </div>
+        </div>
+        <div className="flex justify-between items-center pt-15">
+          <ul className="flex items-center gap-x-6.5 text-[#262626] text-lg">
+            <li>
+              <Link>
+                <RiFacebookFill />
+              </Link>
+            </li>
+            <li>
+              <Link>
+                <FaLinkedinIn />
+              </Link>
+            </li>
+            <li>
+              <Link>
+                <IoLogoInstagram />
+              </Link>
+            </li>
+          </ul>
+          <span className="text-[#6D6D6D] text-sm">2020 Orebi Minimal eCommerce Figma Template by Adveits</span>
         </div>
       </Container>
     </div>

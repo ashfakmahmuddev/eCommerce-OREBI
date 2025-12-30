@@ -18,7 +18,7 @@ const Ads = () => {
           </div>
           <div className="w-1/2">
             <Link>
-              <Image src={Ad_2} className={"w-full pb-8"} />
+              <Image src={Ad_2} className={"w-full pb-10"} />
             </Link>
             <Link>
               <Image src={Ad_3} className={"w-full"} />

@@ -12,7 +12,7 @@ const Bestsellers = () => {
         <h3 className="text-[#262626] text-[40px] font-bold pb-12 capitalize">
           Our Bestsellers
         </h3>
-        <div className="grid grid-cols-4 gap-x-10">
+        <div className="grid grid-cols-4 -mx-5">
           <div className="">
             <Product
               productImg={bestsellerOne}
