@@ -12,7 +12,7 @@ const SpecialOffers = () => {
         <h3 className="text-[#262626] text-[40px] font-bold pb-12 capitalize">
           Special Offers
         </h3>
-        <div className="grid grid-cols-4 gap-x-10">
+        <div className="grid grid-cols-4 -mx-5">
           <div className="">
             <Product
               productImg={specialOne}
@@ -24,7 +24,7 @@ const SpecialOffers = () => {
           <div className="">
             <Product
               productImg={specialTwo}
-              badgeText={"-30%"}
+              badgeText={"New"}
               productName={"Tea Table"}
               productPrice={"$180.00"}
             />
@@ -32,7 +32,7 @@ const SpecialOffers = () => {
           <div className="">
             <Product
               productImg={specialThree}
-              badgeText={"-10%"}
+              badgeText={"New"}
               productName={"Headphones"}
               productPrice={"$60.00"}
             />

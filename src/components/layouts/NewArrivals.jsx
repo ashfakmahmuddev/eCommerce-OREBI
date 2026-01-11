@@ -5,18 +5,20 @@ import productTwo from "/src/assets/productTwo.jpg";
 import productThree from "/src/assets/productThree.jpg";
 import productFour from "/src/assets/productFour.jpg";
 import Slider from "react-slick";
-import { Link } from "react-router-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import NextArrow from "../NextArrow";
+import PrevArrow from "../PrevArrow";
 
 const NewArrivals = () => {
   const settings = {
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 2,
-    autoplay: false,
-    autoplaySpeed: 2000,
-    arrows: true,
-    dots: false,
+    slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />
   };
   return (
     <div className="pb-25 font-DMSans">
@@ -25,94 +27,94 @@ const NewArrivals = () => {
           New Arrivals
         </h3>
         <Slider {...settings} className="-mx-5">
-          <Link>
+          <div>
             <Product
               productImg={productOne}
               badgeText={"New"}
               productName={"Table watch"}
               productPrice={"$44.00"}
             />
-          </Link>
-          <Link>
+          </div>
+          <div>
             <Product
               productImg={productTwo}
-              badgeText={"-30%"}
+              badgeText={"New"}
               productName={"Smart watch"}
               productPrice={"$50.00"}
             />
-          </Link>
-          <Link>
+          </div>
+          <div>
             <Product
               productImg={productThree}
-              badgeText={"-10%"}
+              badgeText={"New"}
               productName={"Basket"}
               productPrice={"$40.00"}
             />
-          </Link>
-          <Link>
+          </div>
+          <div>
             <Product
               productImg={productFour}
               badgeText={"New"}
               productName={"Totoro"}
               productPrice={"$60.00"}
             />
-          </Link>
-          <Link>
+          </div>
+          <div>
             <Product
               productImg={productTwo}
-              badgeText={"-30%"}
+              badgeText={"New"}
               productName={"Smart watch"}
               productPrice={"$50.00"}
             />
-          </Link>
-          <Link>
+          </div>
+          <div>
             <Product
               productImg={productThree}
-              badgeText={"-10%"}
+              badgeText={"New"}
               productName={"Basket"}
               productPrice={"$40.00"}
             />
-          </Link>
-          <Link>
+          </div>
+          <div>
             <Product
               productImg={productFour}
               badgeText={"New"}
               productName={"Totoro"}
               productPrice={"$60.00"}
             />
-          </Link>
-          <Link>
+          </div>
+          <div>
             <Product
               productImg={productTwo}
-              badgeText={"-30%"}
+              badgeText={"New"}
               productName={"Smart watch"}
               productPrice={"$50.00"}
             />
-          </Link>
-          <Link>
+          </div>
+          <div>
             <Product
               productImg={productThree}
-              badgeText={"-10%"}
+              badgeText={"New"}
               productName={"Basket"}
               productPrice={"$40.00"}
             />
-          </Link>
-          <Link>
+          </div>
+          <div>
             <Product
               productImg={productFour}
               badgeText={"New"}
               productName={"Totoro"}
               productPrice={"$60.00"}
             />
-          </Link>
-          <Link>
+          </div>
+          <div>
             <Product
               productImg={productTwo}
-              badgeText={"-30%"}
+              badgeText={"New"}
               productName={"Smart watch"}
               productPrice={"$50.00"}
             />
-          </Link>
+          </div>
         </Slider>
       </Container>
     </div>

@@ -10,8 +10,10 @@ const Product = ({ productImg, badgeText, productName, productPrice }) => {
   return (
     <div className="relative font-DMSans group mx-5">
       <Image src={productImg} className={"w-full"} />
-      <Badge badgeText={badgeText} className={"absolute top-5 left-5"} />
-      <ul className="bg-white px-7.5 py-5.5 absolute left-0 bottom-13 w-full opacity-0 group-hover:opacity-100 transition-all duration-400">
+      {badgeText && (
+        <Badge badgeText={badgeText} className={"absolute top-5 left-5"} />
+      )}
+      <ul className="bg-white px-7.5 py-5.5 absolute left-0 bottom-13 w-full opacity-0 group-hover:opacity-100 translate-y-10 group-hover:translate-y-0 transition-all duration-400">
         <li className="py-2">
           <Link className="flex items-center justify-end gap-x-3.75 hover:pr-1.5 hover:font-bold hover:text-[#262626] duration-300">
             <span className="inline-block">Add to Wish List</span>

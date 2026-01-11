@@ -1,4 +1,3 @@
-import React from "react";
 import Banner from "../layouts/Banner";
 import Information from "../layouts/Information";
 import Ads from "../layouts/Ads";
@@ -10,15 +9,13 @@ import SpecialOffers from "../layouts/SpecialOffers";
 const Home = () => {
   return (
     <>
-      
       <Banner />
       <Information />
       <Ads />
       <NewArrivals />
       <Bestsellers />
-      <PhoneAd/>
-      <SpecialOffers/>
-
+      <PhoneAd />
+      <SpecialOffers />
     </>
   );
 };
