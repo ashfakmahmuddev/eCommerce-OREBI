@@ -26,7 +26,7 @@ const NewArrivals = () => {
         <h3 className="text-[#262626] text-[40px] font-bold pb-12 capitalize">
           New Arrivals
         </h3>
-        <Slider {...settings} className="-mx-5">
+        <Slider {...settings} className="[&_.slick-list]:-mx-5! [&_.slick-slide>div]:px-5!">
           <div>
             <Product
               productImg={productOne}

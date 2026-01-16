@@ -1,10 +1,11 @@
 import React from "react";
 import Container from "../Container";
 import { MdChevronRight } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="pt-30 pb-10 font-DMSans">
+    <div className="py-30 font-DMSans">
       <Container>
         <div className="pb-20">
           <h3 className="text-[#262626] text-5xl font-bold">Login</h3>
@@ -20,7 +21,7 @@ const Login = () => {
               ever since the.
             </p>
           </div>
-          <div className="py-15">
+          <div className="border-b border-b-[#F0F0F0] my-15 pb-[50px]">
             <h3 className="text-[#262626] text-[40px] font-bold pb-10">
               Returning Customer
             </h3>
@@ -32,7 +33,7 @@ const Login = () => {
                 <input
                   type="text"
                   placeholder="Enter your email"
-                  className="w-full border-b border-b-[#F0F0F0] pb-4 mb-6 focus:outline-none"
+                  className="w-full border-b border-b-[#F0F0F0] pb-4 focus:outline-none"
                 />
               </div>
               <div className="w-[510px]">
@@ -42,9 +43,27 @@ const Login = () => {
                 <input
                   type="text"
                   placeholder="Enter your password"
-                  className="w-full border-b border-b-[#F0F0F0] pb-4 mb-6 focus:outline-none"
+                  className="w-full border-b border-b-[#F0F0F0] pb-4 focus:outline-none"
                 />
               </div>
+            </div>
+          </div>
+          <div className="">
+            <h3 className="text-[#262626] text-[40px] font-bold pb-10">
+              New Customer
+            </h3>
+            <p className="w-[610px] text-[#767676] text-base leading-[30px]">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the.
+            </p>
+            <div className="mt-10">
+              <Link
+                to={""}
+                className="text-white bg-[#262626] px-17 py-4 text-sm font-bold cursor-pointer"
+              >
+                Continue
+              </Link>
             </div>
           </div>
         </div>

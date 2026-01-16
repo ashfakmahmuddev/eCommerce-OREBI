@@ -6,10 +6,10 @@ import { LuRefreshCw } from "react-icons/lu";
 import { HiShoppingCart } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
-const Product = ({ productImg, badgeText, productName, productPrice }) => {
+const Product = ({ productImg, badgeText, productName, productPrice, className }) => {
   return (
-    <div className="relative font-DMSans group mx-5">
-      <Image src={productImg} className={"w-full"} />
+    <div className={`relative font-DMSans group ${className}`}>
+      <Image src={productImg} className={"w-full bg-[#F3F3F3]"} />
       {badgeText && (
         <Badge badgeText={badgeText} className={"absolute top-5 left-5"} />
       )}

@@ -12,7 +12,7 @@ const SpecialOffers = () => {
         <h3 className="text-[#262626] text-[40px] font-bold pb-12 capitalize">
           Special Offers
         </h3>
-        <div className="grid grid-cols-4 -mx-5">
+        <div className="grid grid-cols-4 gap-10">
           <div className="">
             <Product
               productImg={specialOne}
