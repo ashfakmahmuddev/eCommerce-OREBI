@@ -179,8 +179,8 @@ const Shop = () => {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-3 -mx-5">
-              <div className="mb-[50px]">
+            <div className="grid grid-cols-3 gap-10 pb-10">
+              <div className="">
                 <Product
                   productImg={bestsellerThree}
                   badgeText={"New"}
@@ -188,7 +188,7 @@ const Shop = () => {
                   productPrice={"$40.00"}
                 />
               </div>
-              <div className="mb-[50px]">
+              <div className="">
                 <Product
                   productImg={specialThree}
                   badgeText={"-10%"}
@@ -196,7 +196,7 @@ const Shop = () => {
                   productPrice={"$40.00"}
                 />
               </div>
-              <div className="mb-[50px]">
+              <div className="">
                 <Product
                   productImg={specialTwo}
                   // badgeText={"New"}
@@ -204,7 +204,7 @@ const Shop = () => {
                   productPrice={"$40.00"}
                 />
               </div>
-              <div className="mb-[50px]">
+              <div className="">
                 <Product
                   productImg={specialOne}
                   // badgeText={"New"}
@@ -212,7 +212,7 @@ const Shop = () => {
                   productPrice={"$40.00"}
                 />
               </div>
-              <div className="mb-[50px]">
+              <div className="">
                 <Product
                   productImg={shopOne}
                   badgeText={"New"}
@@ -236,7 +236,7 @@ const Shop = () => {
                   productPrice={"$120.00"}
                 />
               </div>
-              <div className="mb-[50px]">
+              <div className="">
                 <Product
                   productImg={specialTwo}
                   badgeText={"-15%"}
@@ -244,7 +244,7 @@ const Shop = () => {
                   productPrice={"$40.00"}
                 />
               </div>
-              <div className="mb-[50px]">
+              <div className="">
                 <Product
                   productImg={specialOne}
                   badgeText={"-10%"}
@@ -252,7 +252,7 @@ const Shop = () => {
                   productPrice={"$40.00"}
                 />
               </div>
-              <div className="mb-[50px]">
+              <div className="">
                 <Product
                   productImg={shopTwo}
                   // badgeText={"New"}
@@ -260,7 +260,7 @@ const Shop = () => {
                   productPrice={"$40.00"}
                 />
               </div>
-              <div className="mb-[50px]">
+              <div className="">
                 <Product
                   productImg={productOne}
                   // badgeText={"New"}
@@ -268,7 +268,7 @@ const Shop = () => {
                   productPrice={"$44.00"}
                 />
               </div>
-              <div className="mb-[50px]">
+              <div className="">
                 <Product
                   productImg={specialFour}
                   // badgeText={"New"}
