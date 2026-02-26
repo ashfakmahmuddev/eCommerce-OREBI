@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <div className="bg-[#F5F5F3] py-15 font-DMSans">
       <Container>
-        <div className="flex">
-          <div className="mr-35">
+        <div className="flex justify-between">
+          <div className="">
             <h3 className="text-[#262626] text-base font-bold uppercase">
               Menu
             </h3>
@@ -34,7 +34,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="mr-35">
+          <div className="">
             <h3 className="text-[#262626] text-base font-bold uppercase">
               SHOP
             </h3>
@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="mr-35">
+          <div className="">
             <h3 className="text-[#262626] text-base font-bold uppercase">
               HELP
             </h3>
@@ -78,7 +78,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="mr-[260px]">
+          <div className="">
             <h3 className="text-[#262626] text-base font-bold pb-4">
               (052) 611-5711 <br />
               company@domain.com
